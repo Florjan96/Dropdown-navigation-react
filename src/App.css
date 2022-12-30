@@ -1,6 +1,52 @@
+
+/* MAIN CSS FOR STRUCTURE */
 *{
   margin:0;
   padding:0;
   box-sizing: border-box;
   font-family: sans-serif;
+}
+
+
+.main{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template:
+  'header  header'70px
+  'left-side  right-side'1fr/
+  300px 1fr;
+}
+
+.header{
+  grid-area:header;
+  background-color: #ffff0040;
+}
+
+.right-side{
+  grid-area:right-side;
+}
+
+.left-side{
+  grid-area:left-side;
+}
+
+
+/* HEADER */
+
+.header{
+  display: grid;
+  grid-template-columns: 300px 200px 400px;
+}
+
+ul{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px;
+}
+
+.header-right{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  margin-left: 700px;
+  margin-top: 20px;
 }
