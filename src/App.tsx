@@ -17,13 +17,13 @@ function App() {
 
  <div className="header-middle">
   <ul>
-    <li>Features</li>
-    <li>Company</li>
-    <li>Careers</li>
-    <li>About</li>
+    <li><a href='#' >Features</a></li>
+    <li><a href='#' >Company</a></li>
+    <li><a href='#' >Careers</a></li>
+    <li><a href='#' >About</a></li>
   </ul>
  </div>
- 
+
  <div className="header-right">
   <h4>Login</h4>
   <h4>Register</h4>
@@ -32,7 +32,20 @@ function App() {
       </div>
     
     <div className="left-side">
-<h1>left</h1>
+
+<div className="big-ckrim">
+  <h1>Make remote work</h1>
+<div className="description">
+  <p>Get your team in sync , no matter your location .Streamline processes ,create team rituals,and watch productivity soar.</p>
+</div>
+
+<div className="learn-more">
+  <button>Learn more</button>
+</div>
+
+</div>
+
+
     </div>
     
     <div className="right-side">Rigt</div>

@@ -15,7 +15,7 @@
   grid-template:
   'header  header'70px
   'left-side  right-side'1fr/
-  300px 1fr;
+  1fr 1fr;
 }
 
 .header{
@@ -37,11 +37,24 @@
 .header{
   display: grid;
   grid-template-columns: 300px 200px 400px;
+  /* place-items: center; */
+}
+.header-left{
+  padding-left: 70px;
+  padding-top: 10px;
+
 }
 
 ul{
   display: grid;
   grid-template-columns: 100px 100px 100px 100px;
+list-style: none;
+
+}
+
+ul li{
+  padding-right: 300px;
+  padding-top:20px;
 }
 
 .header-right{
