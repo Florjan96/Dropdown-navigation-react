@@ -63,3 +63,25 @@ ul li{
   margin-left: 700px;
   margin-top: 20px;
 }
+
+
+/* LEFT-SIDE */
+
+.left-side{
+  display: grid;
+place-content: center;
+gap:1rem
+}
+.big-ckrim h1{
+  font-weight: 800;
+  font-size: 1.5cm;
+  padding-left: 200px;
+}
+
+.description{
+  padding-left: 200px;
+}
+
+.learn-more button{
+  margin-left: 200px;
+}
